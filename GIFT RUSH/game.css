@@ -1,0 +1,11 @@
+.card {
+    cursor: pointer;
+    height: 300px; /* Adjust height as needed */
+  }
+  .card .card-body {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px; /* Adjust text color for readability */
+  }

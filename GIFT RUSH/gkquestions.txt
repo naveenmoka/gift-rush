@@ -1,0 +1,84 @@
+set1:
+   1. Who is known as the Father of the Indian Constitution?
+   2.who is the present chief minister of tamilnadu?
+   3. which construction has demolished for the construction of ayodhya Ram Mandhir?
+    4.Which Indian state is known as the "Spice Garden of India"?
+   5. who is the current governor of Andhra Pradesh?
+   6. Who is the Father of cricket?
+   7. Which planet has the largest ring system in solar system?
+set2:
+   1. After how many years does the ICC world cup take place?
+   2. How long the time taken to write Indian Constitution?
+   3. what is the name of the border between India and pakistan?
+   4. Which Indian city is known as the "City of Brotherhood"?
+   5. who is the present chief minister of Maharastra?
+   6. What is the full form of NOTA?
+   7. Which Indian city is known as the "Silicon Valley of India"?
+set3:
+   1. What is the full form of ODI?
+   2. How many fundamental rights are guaranted by the Indian Constitution?
+   3. who is the current chief minister of Utthar Pradesh?
+   4. which colour deviates the most during rainbow formation?
+   5. when was the kargil war held?
+   6. what is the full form of Army?
+   7. What are the colours of the olympic rings?
+set4:
+   1. Who is the current defense minister of India?
+   2. Who is known as the "Iron Man of India"?
+   3. What is the full form of POK?
+   4. Which Indian state is known for its Valley of Flowers National Park?
+   5. who won the first IPL?
+   6. Who was the first Indian woman to become a pilot?
+   7. Which Indian state is known as the "Land of Seven Sisters"?
+set-5:
+   1. Which country is considered the birthplace of cricket?
+   2. Who has the power to dissolve the Lok Sabha?
+   3. who is the present finance minister of India?
+   4. Who is known as the "Nightingale of India"?
+   5. Who was the first Indian woman to win an Olympic gold medal?
+   6.when did the first IPL takes place?
+   7. Which country is known as the "Land of the Midnight Sun"?
+set-6:
+   1. What is the highest mountain peak in India?
+   2. Who was the first President of India?
+   3. the term of office for a member of the rajya sabha is?
+   4. Who is the first player to score 100 centuries in International Cricket?
+   5. What is the name of India's largest saltwater lake?
+   6. Who is the current Secretary-General of the United Nations?
+   7. The chandrayan-3 mission's rover is known as?
+  
+set-7:
+   1. Where will chandrayaan-3 land on the moon?
+   2. Under which mission does agni-5 missile has launched? 
+   3. What is the national river of India?
+   4. what is the minimum age for a person to become a prime minister of India?
+   5. Who was the first Indian woman to climb Mount Everest?
+   6. Who was the first Indian woman to win the Miss World title?
+   7. What is the largest union territory of India?
+set-8:
+   1. Which Indian river is known as the "Ganga of the South"?
+   2. Which amendment is related to national emergency?
+   3. what is the operation name for pulwava attack?
+   4. How many times did india go up to the semi-finals of the ICC World cup?
+   5. Which Indian state is known for its Khajuraho temples?
+   6. Which Indian state is known for the Sundarbans mangrove forest?
+   7. Who is known as the "Grand Old Man of India"?
+set-9:
+   1. What is the national tree of India?
+   2. Which type of government has adopted by india?
+   3. Who composed the Indian national anthem, "Jana Gana Mana"?
+   4. Who holds the position of the Chief Justice of India?
+   5. Who was the founder of the Maurya Empire in ancient India?
+   6.How many times the artificial sun made by china is hotter than real sun?
+   7.When did national space day is celebrated?
+
+set-10:
+    1.what is the maximum strength of the Lok sabha?
+    2.how many schedules are there in Indian Constitution?
+    3.Name the Chief Minister of the largest state in India by population.
+    4.Who is founder of instagram?
+    5.what do the olympic rings indicates?
+    6.Who is known as the "Bhishma Pitamah of Indian Politics"?
+    7.What is the full form of MBBS ?
+ 
+

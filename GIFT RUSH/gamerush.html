@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Rush</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .card {
+      cursor: pointer;
+      height: 300px; /* Adjust height as needed */
+     
+    }
+    .card .card-body {
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      padding: 20px;
+         /* Adjust text color for readability */
+    }
+    .card2{
+      border-style:solid;
+      border-color:black;
+      border-width:2px;
+      border-radius:20px;
+    }
+    body{
+      background-image: radial-gradient(yellow,green,rgb(96, 96, 238));
+    }
+    h1{
+      font-family: 'Courier New', Courier, monospace;
+      color:rgb(11, 15, 9);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Gift Rush</h1>
+    <div class="row">
+      <div class="col-md-4 mt-3 ">
+        <div class="card2 mr-2 shadow-lg">
+        <div class="card text-center m-3 mb-4 card2" style="background-image: url('tollywood3.png'); background-size: 100% 100%;" data-category="Tollywood" onclick="navigateToLocation('tollywood')">
+          <div class="card-body"> 
+          </div>
+        </div>
+
+          <div class="caption"style="text-align:center;"><h3><b>Tollywood</b></h3></div>
+
+        </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card2 mr-2 shadow-lg">
+        <div class="card text-center m-3 mb-3 card2" style="background-image: url('animie.jpeg');background-size: 100%;" data-category="Anime" onclick="navigateToLocation('animie')">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+          </div>
+        </div>
+      
+        <div class="caption"style="text-align:center;"><h3><b>Anime</b></h3></div>
+      </div>
+    </div>
+      <div class="col-md-4 mt-3">
+        <div class="card2 mr-2 shadow-lg">
+        <div class="card text-center m-3 mb-3 card2" style="background-image: url('marvel1.jpeg');background-size: 120%;" onclick="navigateToLocation('marvel')">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+          </div>
+        </div>
+        <div class="caption"style="text-align:center;"><h3><b>Marvel</b></h3></div>
+      </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card2 mr-2 shadow-lg">
+        <div class="card text-center m-3 mb-3 card2" style="background-image: url('cartoon.jpeg');background-size: 100%;" onclick="navigateToLocation('cartoon')">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+          </div>
+        </div>
+        <div class="caption"style="text-align:center;"><h3><b>Cartoon</b></h3></div>
+      </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card2 mr-2 shadow-lg">
+        <div class="card text-center m-3 mb-3 card2" style="background-image: url('gk.jpeg');background-size: 100%;" onclick="navigateToLocation('currentaffairs')">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+          </div>
+        </div>
+        <div class="caption"style="text-align:center;"><h3><b>General Knowledge</b></h3></div>
+      </div>
+      </div>
+      <div class="col-md-4 mt-3 ">
+        <div class="card2 mr-2 shadow-lg">
+        <div class="card text-center mb-3 m-3 card2" style="background-image: url('ipl.jpeg');background-size: 100%;" onclick="navigateToLocation('cricket')">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+          </div>
+        </div>
+        <div class="caption"style="text-align:center;"><h3><b>Cricket</b></h3></div>
+      </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card2 mr-2 shadow-lg">
+        <div class="card text-center mb-3 m-3 card2" style="background-image: url('freefire2.png');background-size: 110%;" onclick="navigateToLocation('Freefire')">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+          </div>
+        </div>
+        <div class="caption"style="text-align:center;"><h3><b>Freefire</b></h3></div>
+      </div>
+      </div>
+      <!-- Add similar code for other cards -->
+    </div>
+  </div>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- <script>
+    // jQuery function to handle click event on cards
+    $(document).ready(function(){
+      $(".card").click(function(){
+        var category = $(this).data('category');
+        localStorage.setItem('category', category);
+        window.location.href = "second_page.html";
+      });
+    });
+  </script> -->
+  <script>
+    function navigateToLocation(category) {
+      var locations = {
+        "tollywood": "tollywood_questions.html",
+        // Add more entries for other categories
+        "animie":"Anime_quetions.html",
+        "cartoon":"cartoon_quetions.html",
+        "marvel":"marvel_questions.html",
+        "currentaffairs":"currentaffairs_questions.html",
+        "cricket":"cricket_questions.html",
+        "Freefire":"freefire_question.html"
+      };
+      
+      // Redirect to the corresponding location for the selected category
+      var location = locations[category];
+      if (location) {
+        window.location.href = location;
+      } else {
+        console.error("No location found for category: " + category);
+      }
+    }
+  </script>
+</body>
+</html>

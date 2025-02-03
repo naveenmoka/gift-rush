@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Rush</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .number-card {
+      cursor: pointer;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    .number-card .card-body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+    body{
+      background-image: radial-gradient(rgb(172, 172, 245),yellow);
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Game Rush</h1>
+    <h2 class="text-center mb-4">Choose any number you want</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(1)">
+          <div class="card-body">
+            1
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(2)">
+          <div class="card-body">
+            2
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(3)">
+          <div class="card-body">
+            3
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(4)">
+          <div class="card-body">
+            4
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(5)">
+          <div class="card-body">
+            5
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(6)">
+          <div class="card-body">
+            6
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(7)">
+          <div class="card-body">
+            7
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(8)">
+          <div class="card-body">
+            8
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(9)">
+          <div class="card-body">
+            9
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center mb-4 number-card" onclick="navigateToPage(10)">
+          <div class="card-body">
+            10
+          </div>
+        </div>
+      </div>
+      <!-- Add similar code for other number cards -->
+    </div>
+  </div>
+
+  <script>
+    function navigateToPage(number) {
+      // Define the URLs for each number
+      var urls = {
+        1: "fset1.html",
+        2: "fset2.html",
+        3: "fset3.html",
+        4: "fset4.html",
+        5: "fset5.html",
+        6: "fset6.html",
+        7: "fset7.html",
+        8: "set8.html",
+        9: "set9.html",
+        10: "set10.html",
+        // Add more URLs for other numbers
+      };
+      
+      // Check if the URL is defined for the clicked number
+      if (urls[number]) {
+        window.location.href = urls[number];
+      } else {
+        console.error("No URL defined for number " + number);
+      }
+    }
+  </script>
+</body>
+</html>
